@@ -1,12 +1,6 @@
 name: Go
 
-on: 
-  push: 
-    tags: 
-      - '*'
-  pull_request: 
-    tags: 
-      - '*'
+on: [ push ]
 
 
 jobs:
