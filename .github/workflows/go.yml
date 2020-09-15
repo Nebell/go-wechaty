@@ -44,7 +44,7 @@ jobs:
           repository: Nebell/go-wechaty-getting-started
           event-type: updatedeps
     
-    - name: Show ENV
+    - name: Show ENV 
       run: echo "${{ toJson(github) }}"
   
   
